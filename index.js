@@ -1,1 +1,1 @@
-console.log('Hello git hub actions')
+export default str => str.split('').reverse().join('');

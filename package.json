@@ -1,0 +1,25 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "Testing github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realTrueProger/github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realTrueProger/github-actions/issues"
+  },
+  "homepage": "https://github.com/realTrueProger/github-actions#readme",
+  "type": "module",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.3.1"
+  }
+}
